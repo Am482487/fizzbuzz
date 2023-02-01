@@ -1,5 +1,4 @@
 from itertools import islice
-import re
 
 def l33t_code(filepath):
     with open(filepath,"r") as writefile:
@@ -16,7 +15,7 @@ def l33t_code(filepath):
     with open(filepath, 'w') as file:
         file.write(filedata)
     
-    with open(filepath,'r') as file:
+    with open(filepath,'r') as file: 
 
         for line in file:
    
@@ -43,3 +42,4 @@ with open(filepath,"w") as writefile:
         writefile.write(item)
 
 l33t_code(filepath)
+
